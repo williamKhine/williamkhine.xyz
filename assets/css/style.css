@@ -716,7 +716,9 @@ section {
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
 }
-
+.yt-emded {
+  height: 500px;
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
