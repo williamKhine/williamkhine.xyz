@@ -523,6 +523,19 @@ section {
   line-height: 0;
 }
 
+.section-title .white-span {
+  position: absolute;
+  top: 30px;
+  color:rgba(214, 215, 216, 0.4);
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
 .section-title p {
   margin-bottom: 0;
   position: relative;
@@ -723,9 +736,10 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Martin-Luther-King-Jr.-Day.png") fixed center center;
   background-size: cover;
   padding: 120px 0;
+  height: 80vh;
 }
 
 .cta h3 {
