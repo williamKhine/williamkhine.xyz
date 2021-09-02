@@ -578,7 +578,10 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.carousel-img {
+  height: 65vh;
+  object-fit: cover;
+}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
